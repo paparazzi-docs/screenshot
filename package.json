@@ -4,6 +4,7 @@
   "keywords": [
     "screenshots"
   ],
+  "private": false,
   "author": "paparazzidocs.com",
   "license": "MIT",
   "version": "0.2.0",
@@ -14,7 +15,7 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run build",
-    "release": "pnpm run lint && pnpm run build && changesets publish"
+    "release": "pnpm run lint && pnpm run build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
