@@ -12,6 +12,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
+    "link": "npm link",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run build",
@@ -21,5 +22,8 @@
     "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.0"
   }
 }
