@@ -1,5 +1,11 @@
 # @paparazzi-docs/screenshot
 
+## 0.3.1
+
+### Patch Changes
+
+- c960499: Change API url
+
 ## 0.3.0
 
 ### Minor Changes
