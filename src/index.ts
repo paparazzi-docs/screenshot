@@ -24,7 +24,7 @@ class PaparazziDocs {
   }
 
   async uploadScreenshot(screenshotBuffer: Buffer, fileName: string, options = {}): Promise<Response> {
-    const apiUrl = `https://rcwi43wfai.execute-api.us-east-2.amazonaws.com/v1`
+    const apiUrl = `https://api.dev.paparazzidocs.com/v1`
     return fetch(`${apiUrl}/screenshot_ci/create`, {
         method: 'PUT',
         headers: {
