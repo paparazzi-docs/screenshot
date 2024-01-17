@@ -1,5 +1,11 @@
 # @paparazzi-docs/screenshot
 
+## 1.0.0
+
+### Major Changes
+
+- cd4508a: use production endpoint
+
 ## 0.3.1
 
 ### Patch Changes
